@@ -1,0 +1,73 @@
+﻿@model IEnumerable<CLDV6211POEProject.Models.Bookings1>
+
+@{
+    ViewData["Title"] = "Bookings Information";
+}
+
+<h1>Bookings Information</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <input type="text" name="searchString" class="form-control" placeholder=""/>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Search</button>
+</form>
+
+@if (TempData["ErrorMessage"] != null)
+{
+
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (!ViewData.ModelState.IsValid) 
+{
+
+    foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+    { 
+        <div class="alert alert-danger">
+            @error.ErrorMessage
+        </div>
+    }
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>Venue</th>
+            <th>Event</th>
+            <th>Booking Date</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model) {
+            <tr>
+                <td>@booking.Booking_Id</td>
+                <td>@booking.Venue?.Venue_Name</td>
+                <td>@booking.Event?.Event_Name</td>
+                <td>@booking.Booking_Date.ToString("yyyy-MM-dd HH:MM:s")</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@booking.Booking_Id">Edit</a>
+                    <a asp-action="Details" asp-route-id="@booking.Booking_Id">Details</a>
+                    <a asp-action="Delete" asp-route-id="@booking.Booking_Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,7 @@
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\CLDV6211POEProject.exe
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\CLDV6211POEProject.dll
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\CLDV6211POEProject.deps.json
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\CLDV6211POEProject.runtimeconfig.json
+C:\Users\lab_services_student\Desktop\CLDV6211\CLDV6211POEProject\obj\Release\net9.0\PubTmp\Out\CLDV6211POEProject.pdb

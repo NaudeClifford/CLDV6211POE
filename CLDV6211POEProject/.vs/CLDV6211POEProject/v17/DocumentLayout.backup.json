@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\controllers\\event1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:controllers\\event1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\models\\event1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:models\\event1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\models\\venue1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:models\\venue1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\controllers\\venue1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:controllers\\venue1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\models\\bookings1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:models\\bookings1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\controllers\\bookings1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:controllers\\bookings1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\bookings1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\bookings1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\bookings1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\bookings1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\event1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\event1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\venue1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\venue1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\venue1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\venue1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\venue1\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\venue1\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\event1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\event1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\venue1\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\venue1\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\venue1\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\venue1\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\views\\bookings1\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:views\\bookings1\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|c:\\users\\lab_services_student\\documents\\github\\cldv6211poe\\cldv6211poeproject\\cldv6211poeproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7B9865C-7A87-4DA9-A5B6-7EB585AB7589}|CLDV6211POEProject.csproj|solutionrelative:cldv6211poeproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:00:57.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bookings1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\Bookings1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Bookings1Controller.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\Bookings1Controller.cs",
+              "RelativeToolTip": "Controllers\\Bookings1Controller.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:07:20.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Venue1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\Venue1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Venue1Controller.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\Venue1Controller.cs",
+              "RelativeToolTip": "Controllers\\Venue1Controller.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAcwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:59:07.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue1\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Index.cshtml",
+              "RelativeToolTip": "Views\\Venue1\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T16:05:09.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Event1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\Event1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Event1Controller.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\Event1Controller.cs",
+              "RelativeToolTip": "Controllers\\Event1Controller.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAIA1wIUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T14:35:48.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:59:06.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Event1\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event1\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Event1\\Index.cshtml",
+              "RelativeToolTip": "Views\\Event1\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T16:05:01.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue1\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Venue1\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T15:39:43.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue1\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Venue1\\Delete.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:17:46.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue1\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Details.cshtml",
+              "RelativeToolTip": "Views\\Venue1\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-03T16:26:53.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bookings1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\Bookings1.cs",
+              "RelativeDocumentMoniker": "Models\\Bookings1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\Bookings1.cs",
+              "RelativeToolTip": "Models\\Bookings1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:40:45.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Bookings1\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings1\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Bookings1\\Index.cshtml",
+              "RelativeToolTip": "Views\\Bookings1\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T09:06:08.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Venue1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\Venue1.cs",
+              "RelativeDocumentMoniker": "Models\\Venue1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\Venue1.cs",
+              "RelativeToolTip": "Models\\Venue1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:19:37.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue1\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Venue1\\Create.cshtml",
+              "RelativeToolTip": "Views\\Venue1\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T09:24:38.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\Event1.cs",
+              "RelativeDocumentMoniker": "Models\\Event1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\Event1.cs",
+              "RelativeToolTip": "Models\\Event1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:19:20.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Event1\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event1\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Event1\\Create.cshtml",
+              "RelativeToolTip": "Views\\Event1\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T09:24:19.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Bookings1\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings1\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Bookings1\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Bookings1\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T09:23:46.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T15:29:04.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CLDV6211POEProject.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\CLDV6211POEProject.csproj",
+              "RelativeDocumentMoniker": "CLDV6211POEProject.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\CLDV6211POEProject.csproj",
+              "RelativeToolTip": "CLDV6211POEProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T14:47:50.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Bookings1\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bookings1\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Bookings1\\Create.cshtml",
+              "RelativeToolTip": "Views\\Bookings1\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T14:42:15.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T20:19:02.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:08:18.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T09:47:35.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CLDV6211POE\\CLDV6211POEProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:43:08.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
