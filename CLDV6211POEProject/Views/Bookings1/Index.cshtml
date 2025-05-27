@@ -57,15 +57,15 @@
     <tbody>
         @foreach (var booking in Model) {
             <tr>
-                <td>@booking.Booking_Id</td>
+                <td>@booking.BookingID</td>
                 <td>@booking.Venue?.Venue_Name</td>
                 <td>@booking.Event?.Event_Name</td>
-                <td>@booking.Booking_Date.ToString("yyyy-MM-dd HH:MM:s")</td>
+                <td>@booking.Booking_Date.ToString("yyyy-MM-dd")</td>
 
                 <td>
-                    <a asp-action="Edit" asp-route-id="@booking.Booking_Id">Edit</a>
-                    <a asp-action="Details" asp-route-id="@booking.Booking_Id">Details</a>
-                    <a asp-action="Delete" asp-route-id="@booking.Booking_Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@booking.BookingID">Edit</a>
+                    <a asp-action="Details" asp-route-id="@booking.BookingID">Details</a>
+                    <a asp-action="Delete" asp-route-id="@booking.BookingID">Delete</a>
                 </td>
             </tr>
         }

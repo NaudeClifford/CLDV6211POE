@@ -6,6 +6,45 @@
 
 <h1>Event List</h1>
 
+<form method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-3">
+            <label>Event Type</label>
+            <select name="searchType" class="form-control">
+                <option value="">- All Types --</option>
+                @foreach (var type in (List<EventType>)ViewData["EventType"])
+                {
+                    <option value="@type.Name">@type.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Venue</label>
+            <select name="venue_Id" class="form-control">
+                <option value="">- All Venues --</option>
+                @foreach (var venue in (List<Venue1>)ViewData["Venue"])
+                {
+                    <option value="@venue.VenueID">@venue.Venue_Name</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label>Start Date</label>
+            <input type="date" name="startDate" class="form-control"/>
+        </div>
+        <div class="col-md-3">
+            <label>End Date</label>
+            <input type="date" name="endDate" class="form-control" />
+        </div>
+    </div>
+    <div class="col-md-3">
+        <button type="submit" class="btn-primary">Filter</button>
+        <a href="/Event1/Index" class="btn btn-secondary ml-2">Clear</a>
+    </div>
+    
+
+</form>
+
 @if (TempData["ErrorMessage"] != null)
 {
 
@@ -29,7 +68,7 @@
     <thead>
         <tr>
             <td>
-                @Html.DisplayNameFor(model => model.Event_Id)
+                @Html.DisplayNameFor(model => model.EventID)
             </td>
             <th>
                 @Html.DisplayNameFor(model => model.Event_Name)
@@ -38,7 +77,7 @@
 				@Html.DisplayNameFor(model => model.Description1)
 			</th>
 			<th>
-				@Html.DisplayNameFor(model => model.Venue_Id)
+				@Html.DisplayNameFor(model => model.VenueID)
 			</th>
             <th>
                 @Html.DisplayNameFor(model => model.Event_Date)
@@ -51,7 +90,7 @@
         @foreach (var item in Model) {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Event_Id)
+                    @Html.DisplayFor(modelItem => item.EventID)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Event_Name)
@@ -60,15 +99,15 @@
 					@Html.DisplayFor(modelItem => item.Description1)
 				</td>
 				<td>
-					@Html.DisplayFor(modelItem => item.Venue_Id)
+					@Html.DisplayFor(modelItem => item.VenueID)
 				</td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Event_Date)
                 </td>            
            <td>
-               <a asp-action="Edit" asp-route-id="@item.Event_Id">Edit</a>
-               <a asp-action="Details" asp-route-id="@item.Event_Id">Details</a>
-               <a asp-action="Delete" asp-route-id="@item.Event_Id">Delete</a>
+               <a asp-action="Edit" asp-route-id="@item.EventID">Edit</a>
+               <a asp-action="Details" asp-route-id="@item.EventID">Details</a>
+               <a asp-action="Delete" asp-route-id="@item.EventID">Delete</a>
            </td>
         </tr>
 }

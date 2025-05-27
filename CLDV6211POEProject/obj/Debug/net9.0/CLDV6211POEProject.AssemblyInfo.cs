@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CLDV6211POEProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bef6f6f8b42adde50a36d96e732d783c5f41da69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad10ed31ec5932f423253eeb41727c594c147c06")]
 [assembly: System.Reflection.AssemblyProductAttribute("CLDV6211POEProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CLDV6211POEProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,7 +6,7 @@ namespace CLDV6211POEProject.Models
     public class Venue1
     {
         [Key]
-        public int Venue_Id { get; set; }
+        public int VenueID { get; set; }
         
         [StringLength(100)]
         public required string Venue_Name { get; set; }

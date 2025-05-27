@@ -1128,7 +1128,7 @@ C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\ob
 C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.CLDV6211POEProject.props
 C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.CLDV6211POEProject.props
 C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\CLDV6211.F31132DC.Up2Date
 C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\CLDV6211POEProject.genruntimeconfig.cache
 C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\ref\CLDV6211POEProject.dll
+C:\Users\lab_services_student\Documents\GitHub\CLDV6211POE\CLDV6211POEProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

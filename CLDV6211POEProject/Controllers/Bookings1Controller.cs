@@ -18,7 +18,7 @@ namespace CLDV6211POEProject.Controllers
         public async Task<IActionResult> Index(string searchString)
         {
             var booking = _context.Bookings1
-                .Include(b => b.Event)
+                .Include(c => c.Event)
                 .Include(b => b.Venue)
                 .AsQueryable();
 
@@ -45,25 +45,25 @@ namespace CLDV6211POEProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Bookings1 booking)
         {
-            var selectedEvent = await _context.Event1.FirstOrDefaultAsync(e => e.Event_Id == @booking.Event_Id);
+            var selectedEvent = await _context.Event1.FirstOrDefaultAsync(e => e.EventID == booking.EventID);
 
             if (selectedEvent == null)
             {
-
-                ModelState.AddModelError("", "Selected event not found");
+                ModelState.AddModelError("", "Selected event not found.");
                 ViewData["Event"] = _context.Event1.ToList();
                 ViewData["Venue"] = _context.Venue1.ToList();
                 return View(booking);
             }
 
+            // Check manually for double booking
             var conflict = await _context.Bookings1
-                .AnyAsync(b => b.Venue_Id == @booking.Venue_Id 
-                && b.Event.Event_Date == selectedEvent.Event_Date);
-               
-            if (conflict) 
-            {
+                .Include(b => b.Event)
+                .AnyAsync(b => b.VenueID == booking.VenueID &&
+                               b.Event.Event_Date.Date == selectedEvent.Event_Date.Date);
 
-                ModelState.AddModelError("", "This Venue is already booked for that date.");
+            if (conflict)
+            {
+                ModelState.AddModelError("", "This venue is already booked for that date.");
                 ViewData["Event"] = _context.Event1.ToList();
                 ViewData["Venue"] = _context.Venue1.ToList();
                 return View(booking);
@@ -78,8 +78,9 @@ namespace CLDV6211POEProject.Controllers
                     TempData["SuccessMessage"] = "Booking created successfully.";
                     return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateException ex) 
+                catch (DbUpdateException ex)
                 {
+                    // If database constraint fails (e.g., unique key violation), show friendly message
                     ModelState.AddModelError("", "This venue is already booked for that date.");
                     ViewData["Event"] = _context.Event1.ToList();
                     ViewData["Venue"] = _context.Venue1.ToList();
@@ -99,7 +100,7 @@ namespace CLDV6211POEProject.Controllers
            
             var booking = await _context.Bookings1
                 
-                .FirstOrDefaultAsync(m => m.Booking_Id == id);
+                .FirstOrDefaultAsync(m => m.BookingID == id);
 
             if (booking == null) return NotFound();
             
@@ -108,7 +109,7 @@ namespace CLDV6211POEProject.Controllers
 
         public async Task<IActionResult> Delete(int? id)
         {
-            var booking = await _context.Bookings1.FirstOrDefaultAsync(m => m.Booking_Id == id);
+            var booking = await _context.Bookings1.FirstOrDefaultAsync(m => m.BookingID == id);
 
             if (booking == null) return NotFound();
             
@@ -128,7 +129,7 @@ namespace CLDV6211POEProject.Controllers
         private bool EventExist(int id)
         {
 
-            return _context.Bookings1.Any(e => e.Booking_Id == id);
+            return _context.Bookings1.Any(e => e.BookingID == id);
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -145,7 +146,7 @@ namespace CLDV6211POEProject.Controllers
         public async Task<IActionResult> Edit(int id, Bookings1 booking)
         {
 
-            if (id != booking.Booking_Id) return NotFound();
+            if (id != booking.BookingID) return NotFound();
             
 
             if (ModelState.IsValid)
@@ -159,7 +160,7 @@ namespace CLDV6211POEProject.Controllers
                 catch (DbUpdateConcurrencyException)
                 {
 
-                    if (!EventExist(booking.Booking_Id))
+                    if (!EventExist(booking.BookingID))
                     {
 
                         return NotFound();

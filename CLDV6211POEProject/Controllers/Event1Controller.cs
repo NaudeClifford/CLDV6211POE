@@ -17,16 +17,33 @@ namespace CLDV6211POEProject.Controllers
         
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchType, int? Venue_Id, DateTime? startDate, DateTime? endDate)
         {
-            var event1 = await _context.Event1.ToListAsync();
+            var event1 = _context.Event1
+                .Include(e => e.Venue)
+                .Include(e => e.EventType)
+                .AsQueryable();
 
-            return View(event1);
+            if (!string.IsNullOrEmpty(searchType))
+                event1 = event1.Where(event1 => event1.EventType.Name == searchType);
+
+            if (Venue_Id.HasValue)
+                event1 = event1.Where(event1 => event1.VenueID == Venue_Id);
+
+            if(startDate.HasValue && endDate.HasValue)
+                event1 = event1.Where(event1 => event1.Event_Date >= startDate && event1.Event_Date <= endDate);
+
+            ViewData["EventType"] = _context.EventType.ToList();
+            ViewData["Venue"] = _context.Venue1.ToList();
+
+            return View(await event1.ToListAsync());
         }
 
         public IActionResult Create() 
         {
             ViewData["Venue"] = _context.Venue1.ToList();
+            ViewData["EventType"] = _context.EventType.ToList();
+
             return View();
         }
 
@@ -46,6 +63,8 @@ namespace CLDV6211POEProject.Controllers
 
             ViewData["Venue"] = _context.Venue1.ToList();
 
+            ViewData["EventType"] = _context.EventType.ToList();
+
             return View(@event2);
         }
 
@@ -54,7 +73,8 @@ namespace CLDV6211POEProject.Controllers
             if (id == null) return NotFound();
 
             var @event2 = await _context.Event1
-                .FirstOrDefaultAsync(m => m.Event_Id == id); 
+                .Include(e => e.Venue)
+                .FirstOrDefaultAsync(m => m.EventID == id); 
 
             if (@event2 == null) return NotFound();
             
@@ -68,7 +88,8 @@ namespace CLDV6211POEProject.Controllers
             if (id == null) return NotFound();
 
             var @event2 = await _context.Event1
-                .FirstOrDefaultAsync(m => m.Event_Id == id);
+                .Include(e => e.Venue)
+                .FirstOrDefaultAsync(m => m.EventID == id);
 
             if (@event2 == null) return NotFound();
             
@@ -83,7 +104,7 @@ namespace CLDV6211POEProject.Controllers
 
             if (@event == null) return NotFound();
 
-            var isBooked = await _context.Bookings1.AnyAsync(b => b.Event_Id == id);
+            var isBooked = await _context.Bookings1.AnyAsync(b => b.EventID == id);
 
             if (isBooked)
             {
@@ -101,7 +122,7 @@ namespace CLDV6211POEProject.Controllers
         private bool EventExist(int id)
         { 
         
-        return _context.Event1.Any(e => e.Event_Id == id);
+        return _context.Event1.Any(e => e.EventID == id);
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -115,6 +136,8 @@ namespace CLDV6211POEProject.Controllers
 
             ViewData["Venue"] = _context.Venue1.ToList();
 
+            ViewData["EventType"] = _context.EventType.ToList();
+
             return View(event2);
         }
 
@@ -123,9 +146,9 @@ namespace CLDV6211POEProject.Controllers
         public async Task<IActionResult> Edit(int id, Event1 event2)
         {
 
-            if (id != event2.Event_Id) return NotFound();
-            
-            if (ModelState.IsValid) 
+            if (id != event2.EventID) return NotFound();
+
+            if (ModelState.IsValid)
             {
                 try
                 {
@@ -136,21 +159,27 @@ namespace CLDV6211POEProject.Controllers
                     return RedirectToAction(nameof(Index));
 
                 }
-                catch (DbUpdateConcurrencyException) 
+                catch (DbUpdateConcurrencyException)
                 {
 
-                    if (!EventExist(event2.Event_Id))
+                    if (!EventExist(event2.EventID))
                     {
 
                         return NotFound();
                     }
-                    else 
+                    else
                     {
 
                         throw;
                     }
                 }
+
             }
+
+            ViewData["Venue"] = _context.Venue1.ToList();
+
+            ViewData["EventType"] = _context.EventType.ToList();
+            
             return View(event2);
         }
 

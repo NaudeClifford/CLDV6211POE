@@ -59,7 +59,7 @@ namespace CLDV6211POEProject.Controllers
 
             if (id == null) return NotFound();
             
-            var venue = await _context.Venue1.FirstOrDefaultAsync(m => m.Venue_Id == id);
+            var venue = await _context.Venue1.FirstOrDefaultAsync(m => m.VenueID == id);
 
             if (venue == null) return NotFound();
 
@@ -71,7 +71,7 @@ namespace CLDV6211POEProject.Controllers
 
             if (id == null) return NotFound();
             
-            var venue = await _context.Venue1.FirstOrDefaultAsync(m => m.Venue_Id == id);
+            var venue = await _context.Venue1.FirstOrDefaultAsync(m => m.VenueID == id);
 
             if (venue == null) return NotFound();
 
@@ -87,7 +87,7 @@ namespace CLDV6211POEProject.Controllers
 
             if (venue == null) return NotFound();
 
-            var hasBookings = await _context.Bookings1.AnyAsync(b => b.Venue_Id == id);
+            var hasBookings = await _context.Bookings1.AnyAsync(b => b.VenueID == id);
 
             if (hasBookings) 
             {
@@ -105,7 +105,7 @@ namespace CLDV6211POEProject.Controllers
         private bool EventExist(int id)
         {
 
-            return _context.Venue1.Any(e => e.Venue_Id == id);
+            return _context.Venue1.Any(e => e.VenueID == id);
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -126,7 +126,7 @@ namespace CLDV6211POEProject.Controllers
         public async Task<IActionResult> Edit(int id, Venue1 venue)
         {
 
-            if (id != venue.Venue_Id) return NotFound();
+            if (id != venue.VenueID) return NotFound();
             
             if (ModelState.IsValid)
             {
@@ -153,7 +153,7 @@ namespace CLDV6211POEProject.Controllers
                 catch (DbUpdateConcurrencyException)
                 {
 
-                    if (!VenueExist(venue.Venue_Id)) return NotFound();
+                    if (!VenueExist(venue.VenueID)) return NotFound();
                     
                     else throw;
                 }
@@ -189,7 +189,7 @@ namespace CLDV6211POEProject.Controllers
 
         private bool VenueExist(int id) 
         {
-            return _context.Venue1.Any(equals => equals.Venue_Id == id);
+            return _context.Venue1.Any(equals => equals.VenueID == id);
         }
     }
 }

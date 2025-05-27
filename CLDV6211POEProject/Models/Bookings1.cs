@@ -8,22 +8,19 @@ namespace CLDV6211POEProject.Models
     public class Bookings1
     {
         [Key]
-        public int Booking_Id { get; set; }
+        public int BookingID { get; set; }
 
-        public int Event_Id { get; set; } 
+        public int EventID { get; set; } 
 
-        [ForeignKey("Event_Id")]
-        public Event1 Event { get; set; }
+        [ForeignKey("EventID")]
+        public Event1? Event { get; set; }
 
-        public int Venue_Id { get; set; }   
+        public int VenueID { get; set; }   
         
-        [ForeignKey("Venue_Id")]
-        public Venue1 Venue { get; set; }
+        [ForeignKey("VenueID")]
+        public Venue1? Venue { get; set; }
 
         public required DateTime Booking_Date { get; set; }
-
-
-
 
     }
 }

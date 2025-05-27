@@ -29,7 +29,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Venue_Id)
+                @Html.DisplayNameFor(model => model.VenueID)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Venue_Name)
@@ -49,7 +49,7 @@
         @foreach (var item in Model) {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Venue_Id)
+                    @Html.DisplayFor(modelItem => item.VenueID)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Venue_Name)
@@ -76,9 +76,9 @@
 
             </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Venue_Id">Edit</a>
-                    <a asp-action="Details" asp-route-id="@item.Venue_Id">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.Venue_Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.VenueID">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.VenueID">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.VenueID">Delete</a>
                 </td>
         </tr>
 
